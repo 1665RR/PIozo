@@ -1,0 +1,25 @@
+ @model OZO.ViewModels.OpremaViewModel
+
+<tr>
+  <td class="text-left">
+    @if (Model.ImaSlika)
+    {
+      <img src="@Url.Action("GetImage", "Oprema", new { id = @Model.IdOprema, hash=Model.SlikaChecksum })"
+           class="malaslika" />
+    }
+  </td>
+  <td class="text-left">@Model.IdOprema </td>
+  <td class="text-left">@Model.Naziv</td>
+  <td class="text-left">@Model.Status</td>
+  <td class="text-left"><input type="checkbox" @(Model.Dostupnost ? "checked" : "") disabled />  </td>
+  <td class="text-left">@Model.NazivReferentniTip</td>
+<td>
+    <a data-idoprema="@Model.IdOprema" class="btn btn-warning btn-sm editajax" title="Ažuriraj"><i class="fas fa-edit"></i></a>
+  </td>
+  <td>
+    <form asp-action="Delete" method="post">
+      <input type="hidden" name="id" value="@Model.IdOprema" />
+      <button data-idoprema="@Model.IdOprema" class="btn btn-sm btn-danger deleteajax" title="Obriši"><i class="fas fa-trash-alt"></i></button>
+    </form>
+  </td>
+</tr> 

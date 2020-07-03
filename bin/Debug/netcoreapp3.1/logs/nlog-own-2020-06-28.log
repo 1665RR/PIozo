@@ -1,0 +1,15 @@
+2020-06-28 16:03:12.7149|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 18:33:46.3571|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 22:08:18.2945|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 22:10:27.6412|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 22:16:01.5211|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 22:24:04.9066|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 22:36:49.7398|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 22:48:30.9352|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 22:53:07.6928|0|OZO.Controllers.OpremaController|INFO|  Oprema data uspješno obrisana |url: http://localhost/Oprema/Delete?|action: Delete
+2020-06-28 22:54:02.4538|0|OZO.Controllers.OpremaController|INFO|  Oprema data uspješno obrisana |url: http://localhost/Oprema/Delete?|action: Delete
+2020-06-28 22:54:16.9485|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 23:46:23.8740|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 23:53:34.2428|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 23:56:21.9533|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-06-28 23:59:02.3074|0|OZO.Program|DEBUG|  init main |url: ?|action: 
