@@ -1,0 +1,59 @@
+﻿@model IEnumerable<OZO.Models.Natječaji>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Naziv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Opis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cijena)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VremenskiRok)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdReferentniTipNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Naziv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Opis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cijena)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VremenskiRok)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdReferentniTipNavigation.IdReferentniTip)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdNatječaji">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdNatječaji">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdNatječaji">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

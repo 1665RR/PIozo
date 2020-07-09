@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iva\\Desktop\\FSRE_sem6\\PI\\vjezba\\OZO\\OZO.csproj": {}
+    "C:\\Users\\iDixon\\source\\repos\\PIozo\\OZO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iva\\Desktop\\FSRE_sem6\\PI\\vjezba\\OZO\\OZO.csproj": {
+    "C:\\Users\\iDixon\\source\\repos\\PIozo\\OZO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iva\\Desktop\\FSRE_sem6\\PI\\vjezba\\OZO\\OZO.csproj",
+        "projectUniqueName": "C:\\Users\\iDixon\\source\\repos\\PIozo\\OZO.csproj",
         "projectName": "OZO",
-        "projectPath": "C:\\Users\\Iva\\Desktop\\FSRE_sem6\\PI\\vjezba\\OZO\\OZO.csproj",
-        "packagesPath": "C:\\Users\\Iva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iva\\Desktop\\FSRE_sem6\\PI\\vjezba\\OZO\\obj\\",
+        "projectPath": "C:\\Users\\iDixon\\source\\repos\\PIozo\\OZO.csproj",
+        "packagesPath": "C:\\Users\\iDixon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iDixon\\source\\repos\\PIozo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Iva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iDixon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -50,6 +54,20 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             },
             "NLog.Web.AspNetCore": {
               "target": "Package",
@@ -82,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,4 @@
+2020-07-09 13:36:53.3968|0|OZO.Controllers.PosloviController|INFO|  Posao data uspješno obrisana |url: https://localhost/Poslovi/Delete?page=1,sort=1,ascending=True|action: Delete
+2020-07-09 13:45:07.0945|0|OZO.Program|DEBUG|  init main |url: ?|action: 
+2020-07-09 14:07:40.8048|0|OZO.Controllers.PosloviController|TRACE|  System.Text.Json.JsonSerializerOptions |url: https://localhost/Poslovi/Create?|action: Create
+2020-07-09 14:07:41.5555|1000|OZO.Controllers.PosloviController|INFO|  Posao pranje dodana. |url: https://localhost/Poslovi/Create?|action: Create

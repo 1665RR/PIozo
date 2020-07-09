@@ -1,0 +1,67 @@
+2020-07-09 13:31:55.4343|0|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5001 
+2020-07-09 13:31:55.5240|0|Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5000 
+2020-07-09 13:31:55.5369|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 13:31:55.5477|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 13:31:55.5477|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
+2020-07-09 13:34:52.1029|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+2020-07-09 13:35:54.7056|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+2020-07-09 13:36:53.3968|0|OZO.Controllers.PosloviController|INFO|Posao data uspješno obrisana 
+2020-07-09 13:44:03.4149|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+2020-07-09 13:44:58.6836|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+2020-07-09 13:45:06.7349|0|Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
+2020-07-09 13:45:07.0945|0|OZO.Program|DEBUG|init main 
+2020-07-09 13:45:07.1919|0|Microsoft.Hosting.Lifetime|INFO|Now listening on: https://localhost:5001 
+2020-07-09 13:45:07.2028|0|Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:5000 
+2020-07-09 13:45:07.2028|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 13:45:07.2289|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 13:45:07.2392|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
+2020-07-09 13:45:31.8897|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+2020-07-09 13:47:49.6776|1|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+2020-07-09 13:57:19.9983|0|Microsoft.AspNetCore.Server.Kestrel|FATAL|Unable to start Kestrel. Failed to bind to address http://127.0.0.1:5000: address already in use.
+2020-07-09 14:00:24.5171|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 14:00:24.7713|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 14:00:24.7901|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
+2020-07-09 14:06:39.6941|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 14:06:39.7852|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 14:06:39.7999|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
+2020-07-09 14:07:40.8048|0|OZO.Controllers.PosloviController|TRACE|System.Text.Json.JsonSerializerOptions 
+2020-07-09 14:07:41.5555|1000|OZO.Controllers.PosloviController|INFO|Posao pranje dodana. 
+2020-07-09 14:19:51.0190|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 14:19:51.2730|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 14:19:51.2954|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
+2020-07-09 17:04:00.5518|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 17:04:00.9482|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 17:04:00.9673|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
+2020-07-09 17:23:54.7174|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 17:23:54.8099|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 17:23:54.8256|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
+2020-07-09 17:24:19.7905|20004|Microsoft.EntityFrameworkCore.Database.Connection|ERROR|An error occurred using the connection to database 'PI-09' on server 'rppp.fer.hr,3000'. 
+2020-07-09 17:24:20.0220|10100|Microsoft.EntityFrameworkCore.Query|ERROR|An exception occurred while iterating over the results of a query for context type 'OZO.Models.PI09Context'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+ ---> System.ComponentModel.Win32Exception (11001): No such host is known.
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:11001,State:0,Class:20 A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+2020-07-09 18:07:56.8191|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 18:07:57.1313|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 18:07:57.1642|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
+2020-07-09 18:09:00.0026|0|Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-07-09 18:09:00.1105|0|Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-07-09 18:09:00.1316|0|Microsoft.Hosting.Lifetime|INFO|Content root path: C:\Users\iDixon\source\repos\PIozo 
